@@ -4,13 +4,13 @@ FROM node:14
 # Set the working directory
 WORKDIR /usr/src/app
 
-# Copy package.json and package-lock.json
+# Copy frontend source code
 COPY . ./
 
 # Install dependencies
 RUN npm install
 
-# Expose the backend port
+# Expose the frontend port
 EXPOSE 5173
 
 # Start the application

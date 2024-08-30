@@ -4,7 +4,7 @@ FROM node:14
 # Set the working directory
 WORKDIR /usr/src/app
 
-# Copy package.json and package-lock.json
+# Copy Copy backend source code
 COPY . ./
 
 # Install dependencies
