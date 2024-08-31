@@ -2,6 +2,12 @@
 
 ## Usage
 
+### Database
+```bash
+docker pull mongo
+docker run --name mongo_instance -p27017:27017 mongo
+```
+
 ### Backend
 ```bash
 cd backend
